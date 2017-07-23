@@ -1,14 +1,3 @@
-# SFDX  App
-
-## Dev, Build and Test
-
-
-## Resources
-
-
-## Description of Files and Directories
-
-
-## Issues
-
+# LightningDataTableCoursesPerContact
+This is modified version of LightningDataTable in AppExchange
 
