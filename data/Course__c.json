@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Course__c",
+                "referenceId": "Course__cRef1"
+            },
+            "Course_fees__c": 1000,
+            "Course__c": "Math4512",
+            "Name": "Maths"
+        },
+        {
+            "attributes": {
+                "type": "Course__c",
+                "referenceId": "Course__cRef2"
+            },
+            "Course_fees__c": 200,
+            "Course__c": "SCIE4512",
+            "Name": "Science"
+        },
+        {
+            "attributes": {
+                "type": "Course__c",
+                "referenceId": "Course__cRef3"
+            },
+            "Course_fees__c": 100,
+            "Course__c": "PHY1243",
+            "Name": "Physics"
+        }
+    ]
+}
