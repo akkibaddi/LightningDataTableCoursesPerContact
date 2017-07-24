@@ -1,0 +1,51 @@
+<aura:component controller="CourseContactController" implements="flexipage:availableForRecordHome,force:hasRecordId">
+    <aura:attribute name="recordId" type="String" access="public"/>
+    <aura:attribute name="contactId" type="String" access="public" default="{!v.recordId}"/>
+    <aura:attribute name="contactCourses" type="Course__c[]" access="public"/>
+    <aura:attribute name="courseColumns" type="List" access="public"/>
+    <aura:attribute name="courseTableConfig" type="Map" access="public"/>
+    <aura:attribute name="selectedCourse" type="Course__c" access="public" default="{'sobjectType':'Courseid__c','Course_fees__c':'','Name':'', 'Courseid__c':'','Contact__c':''}"/>
+    <aura:attribute name="rowIndex" type="Integer" access="private"/>
+    <aura:attribute name="courseOpType" type="String" access="private"/>
+    <aura:handler name="dtActionClick" event="ldt:clickedDtAction" action="{!c.tabActionClicked}"/>
+    <aura:handler name="change" value="{!v.contactId}" action="{!c.fetchCourses}"/>
+    <aura:handler name="init" value="{!this}" action="{!c.fetchCourses}" />
+	
+    <!-- Task Datatable Begin -->
+    <section class="course-contact-list slds-p-top--x-small">
+        <div class="task-list slds-p-top--medium">
+            <ldt:datatableDev title="Course Contacts" aura:id="courseTable" dataRows="{!v.contactCourses}" header="{!v.courseColumns}" config="{!v.courseTableConfig}"/>
+        </div> 
+    </section>
+    <!-- Task Datatable End --> 
+    
+    <!-- Edit Task Modal Begin -->
+    <c:sldsModal aura:id="courseEditModal" closeAction="{!c.closeCourseModal}">
+        <aura:set attribute="header">
+            {!v.courseOpType} Course
+        </aura:set>
+        <aura:set attribute="content">
+            <div class="course-inputs">
+                <div class="slds-grid slds-wrap">
+                     <div class="slds-p-horizontal--small slds-size--1-of-2">
+                        <ui:inputText label="Course Name" labelClass="slds-form-element__label" class="slds-input" value="{!v.selectedCourse.Name}" />
+                    </div>
+                    <div class="slds-p-horizontal--small slds-size--1-of-2">
+                        <ui:inputCurrency label="Course Fees" labelClass="slds-form-element__label" class="slds-input" value="{!v.selectedCourse.Course_fees__c}" />
+                    </div>
+                      <div class="slds-p-horizontal--small slds-size--1-of-2">
+                        <ui:inputText label="Course Id" labelClass="slds-form-element__label" class="slds-input" value="{!v.selectedCourse.Courseid__c}" />
+                    </div>
+                    <div class="slds-p-horizontal--small slds-size--1-of-2">
+                        <ui:inputText label="Course Id" labelClass="slds-form-element__label" class="slds-input" value="{!v.selectedCourse.Contact__c}" />
+                    </div>
+                </div>
+            </div>
+        </aura:set>
+        <aura:set attribute="footer">
+            <button class="slds-button slds-button--neutral" onclick="{!c.closeCourseModal}">Cancel</button>
+            <button class="slds-button slds-button--brand" onclick="{!c.saveCourse}">Save</button>
+        </aura:set>
+    </c:sldsModal>
+    <!-- Edit Task Modal End -->
+</aura:component>

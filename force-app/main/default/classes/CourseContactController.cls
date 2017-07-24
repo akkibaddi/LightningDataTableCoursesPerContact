@@ -10,7 +10,7 @@ public class CourseContactController {
     
     @AuraEnabled
     public static List<Course__c> getCoursesOfContact(String contactId){
-        return [select Contact__c,Course_fees__c,Course__c,Name from Course__c where Contact__c=:contactId];
+        return [select Contact__c,Course_fees__c,Courseid__c,Name from Course__c where Contact__c=:contactId];
     }  
     
     @AuraEnabled

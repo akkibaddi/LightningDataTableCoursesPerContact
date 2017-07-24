@@ -14,7 +14,7 @@ public class CourseContactControllerTest {
        	 	course__c cou=new course__c();
         	cou.contact__c=contactToBeInserted[0].id;
             cou.Course_fees__c=100;
-            cou.Course__c='124'+i;
+            cou.Courseid__c='124'+i;
             cou.Name='test'+i;
         coursesToBeInserted.add(cou);
             }
