@@ -62,15 +62,15 @@
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContact",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContact",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1500913490306,
             "changeTime": 1500913490353,
-            "isWorkspace": false,
-            "contentHash": "f085abaf8d02b90d03ab72b0019f7adf01602f25"
+            "contentHash": "f085abaf8d02b90d03ab72b0019f7adf01602f25",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -210,15 +210,15 @@
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContactList",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContactList",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1500913357036,
             "changeTime": 1500913357036,
-            "isWorkspace": false,
-            "contentHash": "3e8074cb805da982fdeddd542c35abcc6927a0e5"
+            "contentHash": "3e8074cb805da982fdeddd542c35abcc6927a0e5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false
         }
     ],
     [
@@ -237,14 +237,14 @@
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContactList\\CourseContactList.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContactList\\CourseContactList.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 3256,
             "modifiedTime": 1500913594596,
             "changeTime": 1500913594596,
-            "contentHash": "a7a814422409d6d5d3621c1de7753423d58fb755"
+            "contentHash": "a7a814422409d6d5d3621c1de7753423d58fb755",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -762,68 +762,66 @@
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 16919,
-            "modifiedTime": 1500913357094,
-            "changeTime": 1500913357094,
-            "contentHash": "7d926ab536cc9333763702324e694e75ceb40201",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 16239,
+            "modifiedTime": 1500914088399,
+            "changeTime": 1500914088399,
+            "contentHash": "efb059a49ea1eea5d6f9a3b7f098567cee2c0dc5"
         }
     ],
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4363,
-            "modifiedTime": 1500913357096,
-            "changeTime": 1500913357096,
-            "contentHash": "c9cb0a6d122bd0dd4dc901865001e49086e6ab7d",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 4015,
+            "modifiedTime": 1500914088403,
+            "changeTime": 1500914088403,
+            "contentHash": "59db2bc225f297c318f653a5a775476a8df6ece0"
         }
     ],
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4363,
-            "modifiedTime": 1500913357085,
-            "changeTime": 1500913357085,
-            "contentHash": "c9cb0a6d122bd0dd4dc901865001e49086e6ab7d",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 4015,
+            "modifiedTime": 1500914088388,
+            "changeTime": 1500914088388,
+            "contentHash": "59db2bc225f297c318f653a5a775476a8df6ece0"
         }
     ],
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4701,
-            "modifiedTime": 1500913357088,
-            "changeTime": 1500913357088,
-            "contentHash": "c3185b7040abb0359e3dd1e8f7ed9a42e3e03468",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 4353,
+            "modifiedTime": 1500914088391,
+            "changeTime": 1500914088391,
+            "contentHash": "e284dc9f605a13184e6c3ae956b2adfa17af3834"
         }
     ],
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\tabs",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\tabs",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1500913688779,
-            "changeTime": 1500909884967,
-            "contentHash": "3b497105ec3d3c5a1d55100e16561ed583298330",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "size": 0,
+            "modifiedTime": 1500914088384,
+            "changeTime": 1500914088384,
+            "contentHash": "c8845484b71e8b7efc48f0f3a40e684ff767d21e"
         }
     ],
     [
@@ -872,27 +870,40 @@
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContact\\CourseContact.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContact\\CourseContact.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1156,
             "modifiedTime": 1500908192465,
             "changeTime": 1500908192465,
-            "contentHash": "c7557c82e4fd3d59faeeff6f48d0fa6608b5c081"
+            "contentHash": "c7557c82e4fd3d59faeeff6f48d0fa6608b5c081",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContact\\CourseContact.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\aura\\CourseContact\\CourseContact.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 307,
             "modifiedTime": 1500908192462,
             "changeTime": 1500908192462,
-            "contentHash": "ba7baae5bae8b6b09f42a17ca76e902387b4e9f4"
+            "contentHash": "ba7baae5bae8b6b09f42a17ca76e902387b4e9f4",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\tabs\\CourseContactManagementApp.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\akhilesh\\Desktop\\LightningDataTableCoursesPerContact\\force-app\\main\\default\\tabs\\CourseContactManagementApp.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 278,
+            "modifiedTime": 1500914088385,
+            "changeTime": 1500914088385,
+            "contentHash": "85fdb352b057ab53ae0aef863cc891ee9d0c524d"
         }
     ]
 ]
