@@ -18,7 +18,7 @@ script:
 - sfdx force:org:create -f config/project-scratch-def.json -s -a PackageInstallation
 - sfdx force:org:list
 - sfdx force:org:display
-- sfdx force:user:generate:password -u PackageInstallation
+- sfdx force:user:password:generate -u PackageInstallation
 - sfdx force:org:display
 - sfdx force:org:open -u PackageInstallation
 - sfdx force:source:push -u PackageInstallation
