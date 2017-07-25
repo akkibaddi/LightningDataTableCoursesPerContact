@@ -13,8 +13,9 @@ before_install:
 - export PATH=./sfdx/$(pwd):$PATH
 - sfdx update
 - sfdx force:auth:jwt:grant --clientid $CONSUMERKEY --jwtkeyfile assets/server.key
-  --username $USERNAME --setdefaultdevhubusername -a HubOrg
+  --username $USERNAME --setdefaultdevhubusername -a DevHub
 script:
+- sfdx force:org:list
 - sfdx force:org:open -u PackageInstallation
 - sfdx force:source:push -u PackageInstallation
 - sfdx force:apex:test:run -u PackageInstallation -c -r human
