@@ -1,3 +1,0 @@
-<aura:event type="COMPONENT" access="public" description="Table column to sort">
-    <aura:attribute name="columnToSort" type="Object"/>
-</aura:event>

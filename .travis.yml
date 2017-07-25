@@ -21,6 +21,6 @@ script:
 - sfdx force:user:password:generate -u PackageInstallation
 - sfdx force:org:display
 - sfdx force:org:open -u PackageInstallation
-- sfdx force:mdapi:deploy -d packages -u PackageInstallation
+- sfdx force:mdapi:deploy -d packages -u PackageInstallation -w 5
 - sfdx force:source:push -u PackageInstallation
 - sfdx force:apex:test:run -u PackageInstallation -c -r human
