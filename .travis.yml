@@ -20,7 +20,6 @@ script:
 - sfdx force:org:display
 - sfdx force:user:password:generate -u PackageInstallation
 - sfdx force:org:display
-- sfdx force:org:open -u PackageInstallation
 - sfdx force:mdapi:deploy -d packages -u PackageInstallation -w 5
 - sfdx force:mdapi:deploy -d mdapioutput -u PackageInstallation -w 5
 - sfdx force:apex:test:run -u PackageInstallation -c -r human
