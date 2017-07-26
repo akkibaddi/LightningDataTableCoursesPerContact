@@ -9,3 +9,8 @@ LightningDataTableCoursesPerContact is based on LightningDataTable in <a href:"h
 * Table Level Actions<br/>
 * Row Level Actions<br/>
 
+Instructions to use this Component:
+1) Install Salesforce DX
+2) Clone this repo
+3) open cmd and use this command to deploy metadata
+sfdx force:mdapi:deploy -d /metadataoutput
