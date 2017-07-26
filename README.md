@@ -22,7 +22,7 @@ Make sure the org that you are deploying this application is enabled with my dom
 
 7) Go to profile settings to set the permissions to tabs for courses and coursemanagement tab
 
-8) Set the feile level security for all the fields for course object
+8) Set the field level security for all the fields for course object
 
 9) test the app by creating necessary courses associated to a contact and open the course management tab
 
