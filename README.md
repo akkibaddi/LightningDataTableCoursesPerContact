@@ -12,8 +12,7 @@ LightningDataTableCoursesPerContact is based on LightningDataTable in <a href:"h
 Instructions to use this Component:
 1) Install <a href="https://developer.salesforce.com/tools/sfdxcli">SalesforceDX</a>
 2) Clone this repo
-3) open cmd and use this command to deploy metadata
-sfdx force:auth:web:login -a DevHub(This command is used to login your <a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_enable_devhub.htm">Dev Hub Org</a>)
+3) sfdx force:auth:web:login -a DevHub(This command is used to login your <a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_enable_devhub.htm">Dev Hub Org</a>)
 
 4) sfdx force:auth:web:login -a TestingSandbox(login to your sand box or dev or where you need to install this app)
 Make sure the org that you are deploying this application is enabled with my domain settings
