@@ -23,4 +23,4 @@ script:
 - sfdx force:mdapi:deploy -d packages -u PackageInstallation -w 5
 - sfdx force:mdapi:deploy -d mdapioutput -u PackageInstallation -w 5
 - sfdx force:apex:test:run -u PackageInstallation -c -r human
-- sfdx force:org:delete -u PackageInstallation 
+- sfdx force:org:delete -u PackageInstallation -p 
