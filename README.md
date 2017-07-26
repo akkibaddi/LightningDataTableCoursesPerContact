@@ -1,7 +1,7 @@
 # LightningDataTableCoursesPerContact
 <img src="https://travis-ci.org/akkibaddi/LightningDataTableCoursesPerContact.svg?branch=master"></img>
 <hr>
-LightningDataTableCoursesPerContact is based on LightningDataTable in <a href:"https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000E9TBZUA3">App Exchange</a>. It is a Lightning Component intended for Lightning developers to let them display courses registered by a contact in a table/grid with the following features.<br/>
+LightningDataTableCoursesPerContact is based on LightningDataTable in <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000E9TBZUA3">App Exchange</a>. It is a Lightning Component intended for Lightning developers to let them display courses registered by a contact in a table/grid with the following features.<br/>
 * Searching<br/>
 * Sorting<br/>
 * Pagination<br/>
@@ -16,7 +16,7 @@ Instructions to use this Component:
 
 4) sfdx force:auth:web:login -a TestingSandbox(login to your sand box or dev or where you need to install this app)
 Make sure the org that you are deploying this application is enabled with my domain settings
-5) Install the <a href:"https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000E9TBZUA3">App Exchange</a>.
+5) Install the <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3A00000E9TBZUA3">App Exchange</a>
 
 6) sfdx force:mdapi:deploy -d mdapioutput -u FinalTesting -w 5(Deploy the metadataoutput from this repo)
 
