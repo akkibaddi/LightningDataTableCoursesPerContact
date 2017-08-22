@@ -104,7 +104,9 @@
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Contact Courses</masterLabel>
-    <template><name>flexipage:recordHomeTemplateDesktop</name></template>
     <sobjectType>Contact</sobjectType>
+    <template>
+        <name>flexipage:recordHomeTemplateDesktop</name>
+    </template>
     <type>RecordPage</type>
 </FlexiPage>
